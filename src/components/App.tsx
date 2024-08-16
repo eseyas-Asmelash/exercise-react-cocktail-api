@@ -1,13 +1,13 @@
 import { ReactElement } from 'react';
-import { CocktailProvider } from '../context/CocktailContext';
+//import { CocktailProvider } from '../context/CocktailContext';
 import AppRouter from '../router';
 
 
 export function App(): ReactElement {
   return (
-    <CocktailProvider>
+    <div>
       <AppRouter />
-    </CocktailProvider>
+    </div>
   );
 }
 

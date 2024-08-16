@@ -18,15 +18,12 @@ function NavigationBar(): ReactElement {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="/">Cocktail Wiki</Navbar.Brand>
+        <Navbar.Brand href="/">Cocktail DB</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <LinkContainer to="/">
               <Nav.Link>Home</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to="/favorites">
-              <Nav.Link>Favorites</Nav.Link>
             </LinkContainer>
           </Nav>
           <Form onSubmit={handleSearchSubmit}>
